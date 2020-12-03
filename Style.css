@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 2px 2px;
+}
+.logo img{
+    width: 40px;
+    height: 40px;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.navbar{
+   padding: 2px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    background-color:black;
+}
+.list li{
+    list-style: none;
+    padding: 20px 30px;
+}
+.list a{
+    text-decoration: none;
+    color: white;
+}
