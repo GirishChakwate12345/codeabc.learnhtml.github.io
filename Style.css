@@ -30,3 +30,6 @@
     text-decoration: none;
     color: white;
 }
+.list a :hover{
+    color: rgb(35, 92, 250);
+}
