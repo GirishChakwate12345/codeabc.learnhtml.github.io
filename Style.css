@@ -20,16 +20,52 @@
 .list{
     display: flex;
     align-items: center;
-    background-color:black;
+    background-color:rgba(46, 44, 44, 0.7);
 }
 .list li{
     list-style: none;
     padding: 20px 30px;
 }
-.list a{
+.list li a{
     text-decoration: none;
     color: white;
 }
-.list :hover{
-    color: rgb(85, 35, 250);
+.list li a:hover{
+    color: rgb(70, 82, 255);
+}
+.background{
+    background: rgba(0, 0, 0, 0.7)url(./images/Background.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 101px 80px;
+    color: white;
+    max-width: 60%;
+    margin: auto;
+}
+.firstsection{
+    height: 80vh;
+}
+#imglogo{
+    border: 2px solid black;
+    border-radius: 40px;
+    width: 95%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondHalf{
+    width: 30%;
+}
+.secondHalf img{
+    display: block;
+    margin: auto;
 }
